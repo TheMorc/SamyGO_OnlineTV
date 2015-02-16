@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget>
+	<previewjs></previewjs>
+	<preicon></preicon>
+    <ThumbIcon>icons/Tutorial_Video_106.png</ThumbIcon>
+    <BigThumbIcon>icons/Tutorial_Video_95.png</BigThumbIcon>
+	<cpname>wluczykijwf</cpname>
+	<cplogo></cplogo>
+	<cpauthjs></cpauthjs>
+	<ver></ver>
+	<mgrver></mgrver>
+	<fullwidget>n</fullwidget>
+	<srcctl>y</srcctl>
+	<ticker>y</ticker>
+	<movie>n</movie>
+	<childlock>n</childlock>
+	<audiomute>n</audiomute>
+	<videomute>n</videomute>
+	<dcont>y</dcont>
+	<type>user</type>
+	<widgetname>OnlineTV</widgetname>
+	<description>OnlineTV</description>
+	<width>960</width>
+	<height>540</height>
+	<author>
+		<name>wluczykijwf</name>
+		<email></email>
+		<link></link>
+		<organization>Samsung</organization>
+	</author>
+	</widget>

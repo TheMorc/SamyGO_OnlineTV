@@ -1,0 +1,239 @@
+/* Defaults */
+
+*
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    position: relative;
+    color:#FFFFFF;
+    background-color: transpant;
+}
+
+/* Layout */
+body
+{
+    width: 960px; 
+    height: 540px;
+}
+
+#main
+{
+     position: absolute;
+     left: 0px; top: 0px;
+     width: 960px; height: 540px;
+     background-color: #000000;
+     display: none;
+     
+}
+
+
+
+#Content
+{
+text-align:justify;
+color:#000000;
+}
+
+
+#guideMainInfoSelector
+{
+	position:absolute;
+	left:0px; top:0px;
+	width: 960px; height:3px;
+	background-image: url("https://dl.dropboxusercontent.com/s/5ep4anhgehfvaao/selector.png?dl=1&token_hash=AAGKa0CuNodnf1wT7k_-4uPX4z-vXC4Mp7cPDriJJWI_bw&expiry=1399820982");
+	background-repeat:no-repeat;
+	
+}
+#guideMainInfo
+{
+		position:absolute;
+    left:0px; top:145px;
+    width: 960px; height:390px;
+    color:#FFFFFF;
+	text-align:justify;
+    font-size:14px;
+    display:none;
+    z-index:6;
+    background-repeat:repeat; 
+    background-image: url("https://dl.dropboxusercontent.com/s/y7nl49a5hkx8idj/bGMainInfo.png?dl=1&token_hash=AAGti1i5u3dpkkCnFdTpgyi1EwFqLw72dKMoeOyLl68kAQ&expiry=1399821079");
+
+
+
+}
+#guideMainInfoCont
+{
+	padding-right:10px;
+	padding-left:10px;
+	padding-top:5px;
+    margin:5px;
+}
+#mainInfo
+{
+	 position: absolute;
+     left: 0px; top: 0px;
+     width: 100%; height: 145px;
+     display: none;
+     
+     
+	 background-image: url("https://dl.dropboxusercontent.com/s/y7nl49a5hkx8idj/bGMainInfo.png?dl=1&token_hash=AAGti1i5u3dpkkCnFdTpgyi1EwFqLw72dKMoeOyLl68kAQ&expiry=1399821079");
+     background-repeat:repeat-x;
+     opacity:1;
+     z-index:100;
+}
+#mainInfoTitle
+{
+	position: absolute;
+	top:2px;
+	margin:5px;
+	padding:5px;
+	opacity:1;
+}
+#mainInfoLogo
+{
+	position: absolute;
+	top:40px;
+	margin:5px;
+	padding:5px;
+	opacity:0.85;
+}
+#mainInfoNowPlay
+{
+	position: absolute;
+	width: 100%;
+	left: 120px;
+	top: 50px;
+	display: none;
+
+}
+#mainInfoNowTitle
+{
+	position: absolute;
+	top: 0px;
+	font-size:20px;
+	font-weight: bold;
+}
+#mainInfoTime
+{
+	position: absolute;
+	top:22px;
+}
+#mainInfoTimeStr
+{
+	position: absolute;
+	left: 0px;
+	width:120px;
+	font-size:18px;
+}
+#mainAudioInfo
+{
+    position:absolute;
+    left:695px; top:88px;
+    width:250px; height:80px;
+    
+    text-align:right;
+    font-size:12px;
+}
+#mainInfoTimePBarSolid
+{
+	position:absolute;
+    left:0px; top:0px;
+    width:0%; height:8px;
+    background-image:url("https://dl.dropboxusercontent.com/s/3ujhl3ln83knrc3/mainInfoTimePBarSolid.png?dl=1&token_hash=AAF7SOzhWa6SDieMkwN1XmIhdfvKLgPlnxlxjBGJzwvC7g&expiry=1399821145");
+    opacity:0.65;
+    z-index:15
+}
+
+#mainInfoTimePBarEmpty
+{
+	position:absolute;
+    left:115px; top:5px;
+    width:150px; height:8px;
+    background-image:url("https://dl.dropboxusercontent.com/s/m487w4ydctminpk/mainInfoTimePBarEmpty.png?dl=1&token_hash=AAHSZekI3twt0uvWBTzTuJKiAp3i-yma5CDNNkY9P-fSOQ&expiry=1399821177");
+    opacity:1;
+	z-index:15
+}
+#mainInfoNowSpecies
+{
+	position: absolute;
+	top: 42px;
+	font-size:18px;
+}
+#mainInfoNowNext
+{
+	position: absolute;
+	top: 62px;
+	font-size:18px;
+}
+
+
+#mainInfoNowTime
+{
+    position:absolute;
+    left:695px; top:5px;
+    width:250px; height:80px;
+    
+    text-align:right;
+    font-size:16px;
+    
+}
+#mainInfoNowCat
+{
+    position:absolute;
+    left:10px; top:5px;
+    width:100%; height:18px;
+    text-align:left;
+    font-size:18px;
+}
+#mainInfoNowStatus
+{
+    position:absolute;
+    left:695px; top:108px;
+    width:250px; height:80px;
+    
+    text-align:right;
+    font-size:12px;
+}
+#mainInfoNowBuff
+{
+    position:absolute;
+    left:645px; top:202px;
+    width:250px; height:80px;
+    
+    text-align:right;
+    font-size:12px;
+}
+#mainInfoMM
+{
+    position:absolute;
+    right:70px; top:295px;
+    width:650px; height:80px;
+    
+    text-align:right;
+    font-size:19px;
+}
+#logo
+{
+	position: absolute;
+	top: 0px;
+	height: 35px;
+	width: 100%;
+    background-image: url("https://dl.dropboxusercontent.com/s/coc2w3i9yv8uzo0/BgLogo.PNG?dl=1&token_hash=AAEJoa1gpXyKURTE5UjlCTRd_BI-43ftm88YRfc39Q8MZQ&expiry=1399821214");
+    background-repeat:repeat-x;
+    font-size:25px;
+    padding-top:3px;
+    padding-left:20px;
+    z-index:10;
+}
+
+#nowTime
+{
+    position:absolute;
+    left:695px; top:8px;
+    width:250px; height:80px;
+    
+    text-align:right;
+    font-size:18px;
+    
+    z-index:10;
+}

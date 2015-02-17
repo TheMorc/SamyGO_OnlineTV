@@ -1,3 +1,8 @@
+
+
+
+
+
 /* Defaults */
 
 *
@@ -41,14 +46,14 @@ color:#000000;
 	position:absolute;
 	left:0px; top:0px;
 	width: 960px; height:3px;
-	background-image: url("https://dl.dropboxusercontent.com/s/5ep4anhgehfvaao/selector.png?dl=1&token_hash=AAGKa0CuNodnf1wT7k_-4uPX4z-vXC4Mp7cPDriJJWI_bw&expiry=1399820982");
+	background-image: url(Images/selector.png);
 	background-repeat:no-repeat;
 	
 }
 #guideMainInfo
 {
 		position:absolute;
-    left:0px; top:145px;
+    left:0px; top:150px;
     width: 960px; height:390px;
     color:#FFFFFF;
 	text-align:justify;
@@ -56,7 +61,7 @@ color:#000000;
     display:none;
     z-index:6;
     background-repeat:repeat; 
-    background-image: url("https://dl.dropboxusercontent.com/s/y7nl49a5hkx8idj/bGMainInfo.png?dl=1&token_hash=AAGti1i5u3dpkkCnFdTpgyi1EwFqLw72dKMoeOyLl68kAQ&expiry=1399821079");
+    background-image: url(Images/bGMainInfo.png);
 
 
 
@@ -72,14 +77,14 @@ color:#000000;
 {
 	 position: absolute;
      left: 0px; top: 0px;
-     width: 100%; height: 145px;
+     width: 100%; height: 150px;
      display: none;
      
      
-	 background-image: url("https://dl.dropboxusercontent.com/s/y7nl49a5hkx8idj/bGMainInfo.png?dl=1&token_hash=AAGti1i5u3dpkkCnFdTpgyi1EwFqLw72dKMoeOyLl68kAQ&expiry=1399821079");
+	 background-image: url(Images/bGMainInfo.png);
      background-repeat:repeat-x;
      opacity:1;
-     z-index:100;
+
 }
 #mainInfoTitle
 {
@@ -125,21 +130,13 @@ color:#000000;
 	width:120px;
 	font-size:18px;
 }
-#mainAudioInfo
-{
-    position:absolute;
-    left:695px; top:88px;
-    width:250px; height:80px;
-    
-    text-align:right;
-    font-size:12px;
-}
+
 #mainInfoTimePBarSolid
 {
 	position:absolute;
     left:0px; top:0px;
     width:0%; height:8px;
-    background-image:url("https://dl.dropboxusercontent.com/s/3ujhl3ln83knrc3/mainInfoTimePBarSolid.png?dl=1&token_hash=AAF7SOzhWa6SDieMkwN1XmIhdfvKLgPlnxlxjBGJzwvC7g&expiry=1399821145");
+    background-image:url(Images/mainInfoTimePBarSolid.png);
     opacity:0.65;
     z-index:15
 }
@@ -149,7 +146,7 @@ color:#000000;
 	position:absolute;
     left:115px; top:5px;
     width:150px; height:8px;
-    background-image:url("https://dl.dropboxusercontent.com/s/m487w4ydctminpk/mainInfoTimePBarEmpty.png?dl=1&token_hash=AAHSZekI3twt0uvWBTzTuJKiAp3i-yma5CDNNkY9P-fSOQ&expiry=1399821177");
+    background-image:url(Images/mainInfoTimePBarEmpty.png);
     opacity:1;
 	z-index:15
 }
@@ -194,6 +191,42 @@ color:#000000;
     text-align:right;
     font-size:12px;
 }
+#mainStatusInfo
+{
+    position:absolute;
+    left:695px; top:70px;
+    width:250px; height:12px;
+    
+    text-align:right;
+    font-size:10px;
+} 
+#mainVideoInfo
+{
+    position:absolute;
+    left:695px; top:83px;
+    width:250px; height:12px;
+    
+    text-align:right;
+    font-size:10px;
+} 
+#mainAudioInfo
+{
+    position:absolute;
+    left:695px; top:95px;
+    width:250px; height:12px;
+    
+    text-align:right;
+    font-size:10px;
+}
+#mainSubtitleInfo
+{
+    position:absolute;
+    left:695px; top:107px;
+    width:250px; height:12px;
+    
+    text-align:right;
+    font-size:10px;
+} 
 #mainInfoNowBuff
 {
     position:absolute;
@@ -218,7 +251,7 @@ color:#000000;
 	top: 0px;
 	height: 35px;
 	width: 100%;
-    background-image: url("https://dl.dropboxusercontent.com/s/coc2w3i9yv8uzo0/BgLogo.PNG?dl=1&token_hash=AAEJoa1gpXyKURTE5UjlCTRd_BI-43ftm88YRfc39Q8MZQ&expiry=1399821214");
+    background-image: url(Images/BgLogo.png);
     background-repeat:repeat-x;
     font-size:25px;
     padding-top:3px;

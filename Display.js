@@ -33,10 +33,24 @@ Display.init = function()
 };
 
 
-
+Display.statusS = function (status) {
+    alert(status);
+    //widgetAPI.putInnerHTML(this.statusDiv, status);
+    var infoNowPlayStatus = document.getElementById("mainSubtitleInfo"); //("mainStatusInfo");
+    widgetAPI.putInnerHTML(infoNowPlayStatus, status);
+    //widgetAPI.putInnerHTML(this.statusDiv, status);
+    //widgetAPI.putInnerHTML(this.statusDiv, status);
+    //var infoNowPlayStatus = document.getElementById("mainInfoNowStatus");
+    //widgetAPI.putInnerHTML(infoNowPlayStatus, status);
+    //widgetAPI.putInnerHTML(this.statusDiv, status);
+};
 Display.status = function(status)
 {
     alert(status);
+    //widgetAPI.putInnerHTML(this.statusDiv, status);
+    var infoNowPlayStatus = document.getElementById("mainStatusInfo");
+    widgetAPI.putInnerHTML(infoNowPlayStatus, status);
+    //widgetAPI.putInnerHTML(this.statusDiv, status);
     //widgetAPI.putInnerHTML(this.statusDiv, status);
     //var infoNowPlayStatus = document.getElementById("mainInfoNowStatus");
     //widgetAPI.putInnerHTML(infoNowPlayStatus, status);
@@ -44,10 +58,10 @@ Display.status = function(status)
 };
 Display.statusB = function(status)
 {
-    widgetAPI.putInnerHTML(this.statusDiv, status);
+    //widgetAPI.putInnerHTML(this.statusDiv, status);
     var infoNowPlayStatus = document.getElementById("mainInfoNowBuff");
     widgetAPI.putInnerHTML(infoNowPlayStatus, status);
-    widgetAPI.putInnerHTML(this.statusDiv, status);
+    //widgetAPI.putInnerHTML(this.statusDiv, status);
 };
 
 Display.hideMM = function()
@@ -88,4 +102,28 @@ Display.showB = function()
     document.getElementById("mainInfoNowBuff").style.display="block";
 };
 
+Display.hideStat = function ()
+{
+    document.getElementById("mainStatusInfo").style.display = "none";
+    document.getElementById("mainVideoInfo").style.display = "none";
+    document.getElementById("mainAudioInfo").style.display = "none";
+    document.getElementById("mainSubtitleInfo").style.display = "none";
+};
 
+
+Display.showStat = function()
+{
+    document.getElementById("mainStatusInfo").style.display = "block";
+    document.getElementById("mainVideoInfo").style.display = "block";
+    document.getElementById("mainAudioInfo").style.display = "block";
+    document.getElementById("mainSubtitleInfo").style.display = "block";
+};
+
+Display.hideS = function () {
+    //document.getElementById("mainS").style.display = "none";
+};
+
+
+Display.showS = function () {
+    //document.getElementById("mainS").style.display = "block";
+};

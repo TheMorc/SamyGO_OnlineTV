@@ -3,7 +3,7 @@
 	<previewjs></previewjs>
 	<preicon></preicon>
     <ThumbIcon>icons/Tutorial_Video_106.png</ThumbIcon>
-    <BigThumbIcon>icons/Tutorial_Video_95.png</BigThumbIcon>
+    <BigThumbIcon>icons/Tutorial_Video_115.png</BigThumbIcon>
 	<cpname>wluczykijwf</cpname>
 	<cplogo></cplogo>
 	<cpauthjs></cpauthjs>
@@ -26,6 +26,6 @@
 		<name>wluczykijwf</name>
 		<email></email>
 		<link></link>
-		<organization>Samsung</organization>
+		<organization>WF</organization>
 	</author>
 	</widget>

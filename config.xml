@@ -1,31 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget>
+<preference name="permission" value="SYSTEM?"/>
 	<previewjs></previewjs>
 	<preicon></preicon>
-    <ThumbIcon>icons/Tutorial_Video_106.png</ThumbIcon>
-    <BigThumbIcon>icons/Tutorial_Video_115.png</BigThumbIcon>
+  <ThumbIcon>icons/OTV_106.png</ThumbIcon>
+  <BigThumbIcon>icons/OTV_115.png</BigThumbIcon>
+  <ListIcon>icons/OTV_85.png</ListIcon>
+  <BigListIcon>icons/OTV_95.png</BigListIcon>
+  <Icon1080>icons/OTV_128.png</Icon1080>
 	<cpname>wluczykijwf</cpname>
 	<cplogo></cplogo>
 	<cpauthjs></cpauthjs>
-	<ver></ver>
+	<ver>1.1.12.8</ver>
 	<mgrver></mgrver>
+	<preload>y</preload>
+	<snsportal>y</snsportal>
+	<IspBound>n</IspBound>
 	<fullwidget>n</fullwidget>
-	<srcctl>y</srcctl>
+	<srcctl>n</srcctl>
+	<network>y</network>
 	<ticker>y</ticker>
-	<movie>n</movie>
+	<movie>y</movie>
 	<childlock>n</childlock>
 	<audiomute>n</audiomute>
 	<videomute>n</videomute>
+	<multiapp>y</multiapp>
+  <pip>y</pip>
 	<dcont>y</dcont>
 	<type>user</type>
 	<widgetname>OnlineTV</widgetname>
-	<description>OnlineTV</description>
+	<description>Watch more channels directly from the TV level</description>
+	<runTitle>TVComm</runTitle>
 	<width>960</width>
 	<height>540</height>
 	<author>
 		<name>wluczykijwf</name>
 		<email></email>
-		<link></link>
-		<organization>WF</organization>
+		<link>http://forum.samygo.tv/</link>
+		<organization>SamyGO (Official SamyGO Developer)</organization>
 	</author>
 	</widget>

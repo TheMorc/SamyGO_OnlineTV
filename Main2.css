@@ -1,0 +1,609 @@
+#mainS
+{
+     position: absolute;
+     left: 0px; top: 0px;
+     width: 960px; height: 540px;
+     background-color: #000000;
+     display: none;
+
+     opacity:0.85;
+}
+#MainNowTime
+{
+    position:absolute;
+    left:695px; top:5px;
+    width:250px; height:80px;
+    
+    text-align:right;
+    font-size:16px;
+    color:#000000;
+    display: block;
+    z-index:10;
+    
+}
+#MainBG {
+    position:absolute;
+    left:241px;
+    top:0px;
+    width:719px;
+    height:506px;
+    background-image:url(Images/newsImg/three_frame_bg.png);
+}
+
+#MainCategoryBG {
+    position:absolute;
+    left:0px;
+    top:61px;
+    width:241px;
+    height:445px;
+    background-image:url(Images/newsImg/left_category_bg.png);
+}
+
+#MainCategoryList {   
+    position:absolute;
+    left:0px;
+    top:61px;
+    width:241px;
+    height:430px;
+    color:#eeeeee;
+}
+
+#MainCategoryList0 {   
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:241px;
+    height:61px;
+    cursor: pointer;
+}
+
+#MainCategoryList1 {   
+    position:absolute;
+    left:0px;
+    top:61px;
+    width:241px;
+    height:61px;
+    cursor: pointer;
+}
+
+#MainCategoryList2 {   
+    position:absolute;
+    left:0px;
+    top:122px;
+    width:241px;
+    height:61px;
+    cursor: pointer;
+}
+#MainCategoryList3 {   
+    position:absolute;
+    left:0px;
+    top:183px;
+    width:241px;
+    height:61px;
+    cursor: pointer;
+}
+#MainCategoryList4 {   
+    position:absolute;
+    left:0px;
+    top:244px;
+    width:241px;
+    height:61px;
+    cursor: pointer;
+}
+#MainCategoryList5 {   
+    position:absolute;
+    left:0px;
+    top:305px;
+    width:241px;
+    height:61px;
+    cursor: pointer;
+}
+#MainCategoryList6 {   
+    position:absolute;
+    left:0px;
+    top:366px;
+    width:241px;
+    height:61px;
+    cursor: pointer;
+}
+
+
+#MainCategoryTitle0 {   
+    position:absolute;
+    left:5px;
+    top:15px;
+    font-size:20px;
+    color:#eeeeee;
+}
+
+#MainCategoryTitle1 {   
+    position:absolute;
+    left:5px;
+    top:15px;
+    font-size:20px;
+    color:#eeeeee;
+}
+
+#MainCategoryTitle2 {   
+    position:absolute;
+    left:5px;
+    top:15px;
+    font-size:20px;
+    color:#eeeeee;
+}
+#MainCategoryTitle3 {   
+    position:absolute;
+    left:5px;
+    top:15px;
+    font-size:20px;
+    color:#eeeeee;
+}
+#MainCategoryTitle4 {   
+    position:absolute;
+    left:5px;
+    top:15px;
+    font-size:20px;
+    color:#eeeeee;
+}
+#MainCategoryTitle5 {   
+    position:absolute;
+    left:5px;
+    top:15px;
+    font-size:20px;
+    color:#eeeeee;
+}
+#MainCategoryTitle6 {   
+    position:absolute;
+    left:5px;
+    top:15px;
+    font-size:20px;
+    color:#eeeeee;
+}
+#MainTitleBarBG {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:960px;
+	height:61px;
+    background-image:url(Images/newsImg/title_bg.png); 
+}
+
+#MainTitleBar {
+    position:absolute;
+    left:30px;
+    top:15px;
+    font-size:26px;
+}
+
+#MainDate {
+    position:absolute;
+    left:30px;
+    top:68px;
+    font-size:16px;
+    color:#000000;
+    display: block;
+    z-index:10;
+}
+
+#MainDateLine {
+    position:absolute;
+    left:0px;
+    top:89px;
+    width:719px;
+    height:2px;
+    background-image:url(Images/newsImg/left_category_date_line.png);  
+}
+
+#MainPageNumber {
+    position:absolute;
+    right:30px;
+    top:68px;
+    font-size:16px;
+    color:#eeeeee;
+}
+
+#MainListTitles { 
+    position:absolute;
+    left:0px;
+    top:91px;
+    width:719px;
+    height:415px;
+    color:#FFFFFF;
+}
+
+#MainList0 { 
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:719px;
+    height:59px;
+}
+
+#MainList1 {
+    position:absolute;
+    left:0px;
+    top:59px;
+    width:719px;
+    height:59px;
+}
+
+#MainList2 {
+    position:absolute;
+    left:0px;
+    top:118px;
+    width:719px;
+    height:59px;
+}
+
+#MainList3 {
+    position:absolute;
+    left:0px;
+    top:177px;
+    width:719px;
+    height:59px;
+}
+
+#MainList4 {
+    position:absolute;
+    left:0px;
+    top:236px;
+    width:719px;
+    height:59px;
+}
+
+#MainList5 {
+    position:absolute;
+    left:0px;
+    top:295px;
+    width:719px;
+    height:59px;
+}
+
+#MainList6 {
+    position:absolute;
+    left:0px;
+    top:354px;
+    width:719px;
+    height:59px;
+}
+
+#MainListLine {
+    position:absolute;
+    left:20px;
+    bottom:-1px;
+    width:662px;
+    height:2px;
+    background-image:url(Images/newsImg/left_category_line.png); 
+}
+
+
+
+#MainListTitle0 { 
+    position:absolute;
+    left:72px;
+    top:2px;
+    font-size:16px;
+    color:#eeeeee;
+}
+#MainListImg0 { 
+    position:absolute;
+    left:15px;
+    top:3px;
+    max-height: 53px;
+    max-width: 53px;
+}
+#MainListTitleB0 { 
+    position:absolute;
+    left:72px;
+    top:22px;
+    font-size:16px;
+    color:#eeeeee;
+}
+#MainListTitleC0
+{
+	position:absolute;
+    left:230px; top:42px;
+    /*width:150px; height:8px;*/
+    font-size:13px;
+}
+#MainListTitleC1
+{
+	position:absolute;
+    left:230px; top:42px;
+    /*width:150px; height:8px;*/
+    font-size:13px;
+}
+#MainListTitleC2
+{
+	position:absolute;
+    left:230px; top:42px;
+    /*width:150px; height:8px;*/
+    font-size:13px;
+}
+#MainListTitleC3
+{
+	position:absolute;
+    left:230px; top:42px;
+    /*width:150px; height:8px;*/
+    font-size:13px;
+}
+#MainListTitleC4
+{
+	position:absolute;
+    left:230px; top:42px;
+    /*width:150px; height:8px;*/
+    font-size:13px;
+}
+#MainListTitleC5
+{
+	position:absolute;
+    left:230px; top:42px;
+    /*width:150px; height:8px;*/
+    font-size:13px;
+}
+#MainListTitleC6
+{
+	position:absolute;
+    left:230px; top:42px;
+    /*width:150px; height:8px;*/
+    font-size:13px;
+}
+#MainListBarSolid0
+{
+	position:absolute;
+    left:0px; top:0px;
+    width:0%; height:8px;
+    background-image:url(Images/mainInfoTimePBarSolid.png);
+    opacity:0.85;
+}
+#MainListBarEmpty0
+{
+	position:absolute;
+    left:72px; top:45px;
+    width:150px; height:8px;
+    background-image:url(Images/mainInfoTimePBarEmpty.png);
+    display: none;
+}
+
+#MainListTitle1 {
+    position:absolute;
+    left:72px;
+    top:2px;
+    font-size:16px;
+    color:#eeeeee;
+}
+#MainListImg1 { 
+    position:absolute;
+    left:15px;
+    top:3px;
+    max-height: 53px;
+    max-width: 53px;
+}
+#MainListTitleB1 { 
+    position:absolute;
+    left:72px;
+    top:22px;
+    font-size:16px;
+    color:#eeeeee;
+}
+#MainListBarSolid1
+{
+	position:absolute;
+    left:0px; top:0px;
+    width:0%; height:8px;
+    background-image:url(Images/mainInfoTimePBarSolid.png);
+    opacity:0.85;
+}
+#MainListBarEmpty1
+{
+	position:absolute;
+    left:72px; top:45px;
+    width:150px; height:8px;
+    background-image:url(Images/mainInfoTimePBarEmpty.png);
+    display: none;
+}
+#MainListTitle2 {
+    position:absolute;
+    left:72px;
+    top:2px;
+    font-size:16px;
+    color:#eeeeee;
+}
+#MainListImg2 { 
+    position:absolute;
+    left:15px;
+    top:3px;
+    max-height: 53px;
+    max-width: 53px;
+}
+#MainListTitleB2 { 
+    position:absolute;
+    left:72px;
+    top:22px;
+    font-size:16px;
+    color:#eeeeee;
+}
+#MainListBarSolid2
+{
+	position:absolute;
+    left:0px; top:0px;
+    width:0%; height:8px;
+    background-image:url(Images/mainInfoTimePBarSolid.png);
+    opacity:0.85;
+}
+#MainListBarEmpty2
+{
+	position:absolute;
+    left:72px; top:45px;
+    width:150px; height:8px;
+    background-image:url(Images/mainInfoTimePBarEmpty.png);
+    display: none;
+}
+#MainListTitle3 {
+    position:absolute;
+    left:72px;
+    top:2px;
+    font-size:16px;
+    color:#eeeeee;
+}
+#MainListImg3 { 
+    position:absolute;
+    left:15px;
+    top:3px;
+    max-height: 53px;
+    max-width: 53px;
+}
+#MainListTitleB3 { 
+    position:absolute;
+    left:72px;
+    top:22px;
+    font-size:16px;
+    color:#eeeeee;
+}
+#MainListBarSolid3
+{
+	position:absolute;
+    left:0px; top:0px;
+    width:0%; height:8px;
+    background-image:url(Images/mainInfoTimePBarSolid.png);
+    opacity:0.85;
+}
+#MainListBarEmpty3
+{
+	position:absolute;
+    left:72px; top:45px;
+    width:150px; height:8px;
+    background-image:url(Images/mainInfoTimePBarEmpty.png);
+    display: none;
+}
+#MainListTitle4 {
+    position:absolute;
+    left:72px;
+    top:2px;
+    font-size:16px;
+    color:#eeeeee;
+}
+#MainListImg4 { 
+    position:absolute;
+    left:15px;
+    top:3px;
+    max-height: 53px;
+    max-width: 53px;
+}
+#MainListTitleB4 { 
+    position:absolute;
+    left:72px;
+    top:22px;
+    font-size:16px;
+    color:#eeeeee;
+}
+#MainListBarSolid4
+{
+	position:absolute;
+    left:0px; top:0px;
+    width:0%; height:8px;
+    background-image:url(Images/mainInfoTimePBarSolid.png);
+    opacity:0.85;
+}
+#MainListBarEmpty4
+{
+	position:absolute;
+    left:72px; top:45px;
+    width:150px; height:8px;
+    background-image:url(Images/mainInfoTimePBarEmpty.png);
+    display: none;
+}
+#MainListTitle5 {
+    position:absolute;
+    left:72px;
+    top:2px;
+    font-size:16px;
+    color:#eeeeee;
+}
+#MainListImg5 { 
+    position:absolute;
+    left:15px;
+    top:3px;
+    max-height: 53px;
+    max-width: 53px;
+}
+#MainListTitleB5 { 
+    position:absolute;
+    left:72px;
+    top:22px;
+    font-size:16px;
+    color:#eeeeee;
+}
+#MainListBarSolid5
+{
+	position:absolute;
+    left:0px; top:0px;
+    width:0%; height:8px;
+    background-image:url(Images/mainInfoTimePBarSolid.png);
+    opacity:0.85;
+}
+#MainListBarEmpty5
+{
+	position:absolute;
+    left:72px; top:45px;
+    width:150px; height:8px;
+    background-image:url(Images/mainInfoTimePBarEmpty.png);
+    display: none;
+}
+#MainListTitle6 {
+    position:absolute;
+    left:72px;
+    top:2px;
+    font-size:16px;
+    color:#eeeeee;
+}
+#MainListImg6 { 
+    position:absolute;
+    left:15px;
+    top:3px;
+    max-height: 53px;
+    max-width: 53px;
+}
+#MainListTitleB6 { 
+    position:absolute;
+    left:72px;
+    top:22px;
+    font-size:16px;
+    color:#eeeeee;
+}
+#MainListBarSolid6
+{
+	position:absolute;
+    left:0px; top:0px;
+    width:0%; height:8px;
+    background-image:url(Images/mainInfoTimePBarSolid.png);
+    opacity:0.85;
+}
+#MainListBarEmpty6
+{
+	position:absolute;
+    left:72px; top:45px;
+    width:150px; height:8px;
+    background-image:url(Images/mainInfoTimePBarEmpty.png);
+    display: none;
+}
+.MainListTitle_style {    
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:638px;
+    height:23px;
+    text-align:left;
+    vertical-align:middle;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+
+#MainScroll {
+    position:absolute;
+    right:29px;
+    top:96px;
+    height:403px;
+}
+

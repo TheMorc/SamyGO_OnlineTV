@@ -12,7 +12,8 @@
     border: 0;
     position: relative;
     color:#FFFFFF;
-    background-color: transpant;
+    background-color: transparent;
+    
 }
 
 /* Layout */
@@ -20,6 +21,7 @@ body
 {
     width: 960px; 
     height: 540px;
+    background-color: transparent;
 }
 
 #main
@@ -27,12 +29,43 @@ body
      position: absolute;
      left: 0px; top: 0px;
      width: 960px; height: 540px;
-     background-color: #000000;
+     background-color: transparent;
+     /*background-color: #000000;*/
      display: none;
      
 }
-
-
+#debug
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 960px;
+	height: 540px;
+	z-index : 100;
+	color: white;
+	font-size: 12px;
+    background-repeat:repeat; 
+    background-image: url(Images/bGMainInfo.png);
+	font-family: courier, monospace;
+	text-align: left;
+    display: none;
+}
+#pip
+{
+	position: absolute;
+	left: 75px;
+	top: 80px;
+	width: 401px;
+	height: 229px;
+	z-index : 99;
+	color: white;
+	font-size: 12px;
+    background-repeat:repeat; 
+    background-image: url(Images/bGMainInfo.png);
+	font-family: courier, monospace;
+	text-align: left;
+    display: none;
+}
 
 #Content
 {
@@ -101,6 +134,10 @@ color:#000000;
 	margin:5px;
 	padding:5px;
 	opacity:0.85;
+    height:auto; 
+    width:auto; 
+    max-width:100px; 
+    max-height:95px
 }
 #mainInfoNowPlay
 {
@@ -163,6 +200,15 @@ color:#000000;
 	font-size:18px;
 }
 
+#mainInfoREC
+{
+	position: absolute;
+	top: 83px;
+	font-size:14px;
+    color: red;
+    display: none;
+}
+
 
 #mainInfoNowTime
 {
@@ -194,8 +240,8 @@ color:#000000;
 #mainStatusInfo
 {
     position:absolute;
-    left:695px; top:70px;
-    width:250px; height:12px;
+    left:433px; top:77px;
+    width:512px; height:12px;
     
     text-align:right;
     font-size:10px;
@@ -203,7 +249,7 @@ color:#000000;
 #mainVideoInfo
 {
     position:absolute;
-    left:695px; top:83px;
+    left:695px; top:114px;
     width:250px; height:12px;
     
     text-align:right;
@@ -212,7 +258,7 @@ color:#000000;
 #mainAudioInfo
 {
     position:absolute;
-    left:695px; top:95px;
+    left:695px; top:102px;
     width:250px; height:12px;
     
     text-align:right;
@@ -221,7 +267,7 @@ color:#000000;
 #mainSubtitleInfo
 {
     position:absolute;
-    left:695px; top:107px;
+    left:695px; top:90px;
     width:250px; height:12px;
     
     text-align:right;

@@ -17,6 +17,19 @@
       <category_title>Info</category_title>
     </category>
   </categories>
+  <item>
+  <title>TVP1 HD</title>
+  <link>tvp1hd179</link>
+  <image>http://static.weeb.tv/logos/9fe2e1a2c9659a9c3b4f35354b0e35e0.jpg</image>
+  <description> </description>
+  <type>WeebTV</type>
+  <ch_category>
+      <id_category>
+      </id_category>
+  </ch_category>
+  <tvid>100</tvid>
+  <source>OnlineTV</source>
+</item>
   <channel>
     <item>
       <title>1-2-3 TV</title>

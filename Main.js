@@ -608,7 +608,7 @@ function scroll(Minor, Major) {
                                     Debug.Log("[Main] Main.itv: " + Main.itv);
                                     if (!Main.itv) {
                                         Debug.Log("[Main] Check OnlienTV Run");
-                                        Util.httpGetNoSync(Main.widgetURL + "OnlineTV");
+                                        Util.httpGetNoSync(Main.widgetURL + "TVComm");
                                     }
                                 }
                             }
@@ -1992,7 +1992,7 @@ function OnEvent(event, data1, data2) {
                                     case tvKey.KEY_GREEN:
                                         Debug.Log("[Main] Show OnlineTV");
                                         Main.pause = false;
-                                        Player.httpGetNoSync(Main.widgetURL + "OnlineTV");
+                                        Player.httpGetNoSync(Main.widgetURL + "TVComm");
                                         //var fileOld = fileSystemObj.openCommonFile(path, 'w');
                                         //if (fileOld != null) {
                                         //    fileOld.writeAll(keyData + " 0");

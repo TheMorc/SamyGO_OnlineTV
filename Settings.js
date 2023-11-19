@@ -30,13 +30,9 @@ Settings.UserCategories[2] = "Docu";
 Settings.HLS.STARTBITRATE = "HIGHEST"; //LOWEST, AVERAGE, HIGHEST
 //SoundTrackLangPriority Settings
 //Reference: http://forum.doom9.org/showthread.php?p=1419193#post1419193
-Settings.SoundTrackLangPriority[0] = 7368556;//pol
-Settings.SoundTrackLangPriority[1] = 6647399;//eng
-Settings.SoundTrackLangPriority[2] = 6385255;//eng
-Settings.SoundTrackLangPriority[3] = 6647919;//enm
-Settings.SoundTrackLangPriority[4] = 6776178;//ger
-Settings.SoundTrackLangPriority[5] = 6579573;//deu
-Settings.SoundTrackLangPriority[6] = 6779767;//gsw
+Settings.SoundTrackLangPriority[0] = 6514035;//pol
+Settings.SoundTrackLangPriority[1] = 7564395;//eng
+Settings.SoundTrackLangPriority[2] = 7564399;//eng
 
 //For any type stream
 //If the Value < 1KB then set default Value

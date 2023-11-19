@@ -1186,18 +1186,18 @@ Player.SetLang = function ()
             var chk = Util.CreateCHKey(Main.selectMinorTemp, Main.selectMajorTemp);
             
             var setAPID = -1;
-            if (Main.ChannelsJSON[chk] != null) {
-                if (Main.ChannelsJSON[chk].apid != null) {
-                    setAPID = this.plugin.Execute('SetStreamPID', 1, Main.ChannelsJSON[chk].apid);
-                    //this.currAudio = this.plugin.Execute('GetCurrentStreamID', 1);
-                    Debug.Log("[Player] Channel key: " + chk + ", set stream audio PID: " + Main.ChannelsJSON[chk].apid + ", status: " + setAPID);
-                    if (Player.tSetMoreStreamInfoToPlayer) {
-                        clearTimeout(Player.tSetMoreStreamInfoToPlayer);
-                    }
-                    Player.tSetMoreStreamInfoToPlayer = setTimeout("Util.SetMoreStreamInfoToPlayer();", 500);
-                    //}
-                }
-            }
+            //if (Main.ChannelsJSON[chk] != null) {
+            //    if (Main.ChannelsJSON[chk].apid != null) {
+            //        setAPID = this.plugin.Execute('SetStreamPID', 1, Main.ChannelsJSON[chk].apid);
+            //        //this.currAudio = this.plugin.Execute('GetCurrentStreamID', 1);
+            //        Debug.Log("[Player] Channel key: " + chk + ", set stream audio PID: " + Main.ChannelsJSON[chk].apid + ", status: " + setAPID);
+            //        if (Player.tSetMoreStreamInfoToPlayer) {
+            //            clearTimeout(Player.tSetMoreStreamInfoToPlayer);
+            //        }
+            //        Player.tSetMoreStreamInfoToPlayer = setTimeout("Util.SetMoreStreamInfoToPlayer();", 500);
+            //        //}
+            //    }
+            //}
             
             //
             if (setAPID == -1) {

@@ -1730,7 +1730,7 @@ Main.pauseHandler = function (event) {
     Debug.Log("[Main] On pause window done...");
     
 
-};
+};<
 Main.resumeHandler = function (event) {
     Main.pause = false;
     Main.SetTimetrs(true);
@@ -2045,13 +2045,13 @@ function OnEvent(event, data1, data2) {
                     Main.bWriteChannelsJSON = true;
                     Util.WriteChannelJSON(Main.ChannelsStreamInfos, 'streamInfos');
                     Main.bWriteChannelsStreamInfos = true;
-                    var CH = Settings.RestartTVChannel;
-                    if (CH != -1) {
-                        var minor = 65534;
-                        Main.windowPlugin.SetChannel(parseInt(CH), parseInt(minor));
-                        Debug.Log("[Main] The Power Off Start");
-                        break;
-                    }
+                    //var CH = Settings.RestartTVChannel;
+                    //if (CH != -1) {
+                    //    var minor = 65534;
+                    //    Main.windowPlugin.SetChannel(parseInt(CH), parseInt(minor));
+                    //    Debug.Log("[Main] The Power Off Start");
+                    //    break;
+                    //}
                 }
             default:
                 Debug.Log("[Main] Message OnEvent: " + data1);
